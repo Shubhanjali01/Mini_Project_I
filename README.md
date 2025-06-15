@@ -42,8 +42,11 @@ Models: GCN, GRU, LSTM, ASTGCN (Attention-based Spatio-Temporal Graph Convolutio
 1. Train on past traffic patterns to predict future speeds
 2. Metrics used: MAE, RMSE, MAPE
 
-`Suggested Enhancements (optional if implementing for extra credit):`
 
+`Suggested improvements-` 
+ - Add attention mechanisms, evaluate cross-city transfer learning, or incorporate weather/incident data for multivariate forecasting.
+
+`Suggested Enhancements (optional if implementing for extra credit):`
 1. Add weather/incident data for multivariate modeling
 2. Experiment with cross-city generalization using PeMS datasets
 3. Try temporal attention + spatial attention separately
